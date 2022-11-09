@@ -1,38 +1,21 @@
-.App {
-  text-align: center;
-}
+*{margin: 0; padding: 0; box-sizing: border-box;}
+button{border: none;}
+a{color: black; text-decoration: none;}
+.cart-wrap{}
+.cart-wrap #header{}
+.cart-wrap #header .gnb{}
+.cart-wrap #header .gnb .left{flex: 1; display: flex;}
+.cart-wrap #header .gnb .left a.back{text-decoration: none;}
+.cart-wrap #header .gnb .left h6{}
+.cart-wrap #header .gnb .left h6 a.cart-home{text-decoration: none; color: black;}
+.cart-wrap #header .gnb .right{}
+.cart-wrap #header .inner{display: flex; width: 1024px; padding: 15px 0; margin: 0 auto;}
+.cart-wrap #header .lnb{}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.contents .card{width: 1024px; margin: 0 auto; padding: 0 30px; border-radius: 16px; box-shadow: 0 3px 9px rgba(0, 0, 0, .5); }
+.contents .card:not(:first-child){margin-top: 30px;}
+.contents .card .store-header{border-bottom: 2px solid #222; padding: 25px 0 18px; width: 100%;}
+.contents .card .store-content{display: flex; justify-content: space-between;}
+.contents .card .store-content .basic-info{display: flex; width: 490px;}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.contents .card .price-panel{padding: 24px 0 30px 0; display: flex; justify-content: center;}

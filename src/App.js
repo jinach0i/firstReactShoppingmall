@@ -10,7 +10,7 @@ function App() {
         <Route path='/' element={<Home />}/>
         <Route path='/detail' element={<div>상세페이지임</div>}></Route>
         <Route path='/about' element={<div>소개페이지임</div>}/>
-        <Route path='/cart' component={<Cart />}/>
+        <Route path='/cart' element={<Cart />}/>
         
       </Routes>
     </div>
